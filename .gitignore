@@ -1,0 +1,63 @@
+# Environnement virtuel
+.venv/
+env/
+venv/
+
+# Fichiers de configuration d'environnement
+.env
+*.env
+
+# Fichiers générés par Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Migrations Django
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Fichiers de base de données
+*.sqlite3
+
+# Fichiers statiques et médias générés
+staticfiles/
+media/
+
+# Logs et rapports d'erreurs
+*.log
+*.pot
+*.py[cod]
+coverage/
+coverage.xml
+htmlcov/
+*.cover
+*.db
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Fichiers et dossiers spécifiques à PyCharm
+.idea/
+*.iml
+
+# Fichiers liés à des outils comme pytest ou mypy
+.pytest_cache/
+mypy_cache/
+.dmypy.json
+.cache/
+
+# Fichiers de debug
+.DS_Store
+Thumbs.db
+
+# Fichiers de build Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Fichiers d'export de docker ou config container
+docker-compose.override.yml
